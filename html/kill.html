@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>秒杀列表</title>
+    <link rel="shortcut icon" href="../image/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/kill.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/Ylike.css">
+</head>
+<body>
+    <div class="main">
+        <!--头部-->
+        <div id="header"></div>        
+        <div class="sk_mod_hd" id="sk_mod_hd">
+            <!--秒杀搜索块-->
+            <div class="grid_c1">
+                <div id="logo-2014">
+                    <a href="" class="logo"></a>
+                    <div class="extra">
+                        <div id="channel">秒杀</div>
+                        <div id="categorys-mini">
+                            <div class="cw-icon">
+                                <h2>
+                                    <a href="">
+                                        全部分类
+                                        <i class="ci-right"><s>◇</s></i>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div id="categorys-mini-main" class="hide">
+                                <div class="dd-inner">
+                                    <div class="item fore1">
+                                        <h3>
+                                            <a href="">家用电器</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore2">
+                                        <h3>
+                                            <a href="" target="_blank">手机</a>、
+                                            <a href="" target="_blank">运营商</a>、
+                                            <a href="" target="_blank">数码</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore3">
+                                        <h3>
+                                            <a href="" target="_blank">电脑</a>、
+                                            <a href="" target="_blank">办公</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore3">
+                                        <h3>
+                                            <a href="" target="_blank">电脑</a>、
+                                            <a href="" target="_blank">办公</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore4">
+                                        <h3>
+                                            <a href="" target="_blank">家居</a>、
+                                            <a href="" target="_blank">家具</a>、
+                                            <a href="" target="_blank">家装</a>、
+                                            <a href="" target="_blank">厨具</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore5">
+                                        <h3>
+                                            <a href="" target="_blank">男装</a>、
+                                            <a href="" target="_blank">女装</a>、
+                                            <a href="" target="_blank">童装</a>、
+                                            <a href="" target="_blank">内衣</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore6">
+                                        <h3>
+                                            <a href="" target="_blank">美妆</a>、
+                                            <a href="" target="_blank">个护清洁</a>、
+                                            <a href="" target="_blank">宠物</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore7">
+                                        <h3>
+                                            <a href="" target="_blank">女鞋</a>、
+                                            <a href="" target="_blank">箱包</a>、
+                                            <a href="" target="_blank">钟表</a>、
+                                            <a href="" target="_blank">珠宝</a>
+                                        </h3>
+                                    </div>
+                                    <div class="item fore8">
+                                        <h3>
+                                            <a href="" target="_blank">男鞋</a>、
+                                            <a href="" target="_blank">运动</a>、
+                                            <a href="" target="_blank">户外</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="search-2014">
+                    <ul id="shelper" class="hide"></ul>
+                    <div class="form">
+                        <input type="text" class="text" id="key">
+                        <button class="cw-icon" data-trigger="search">
+                            <i></i>
+                            搜索
+                        </button>
+                    </div>
+                </div>
+                <div id="settleup-2014" class="dropdown">
+                    <div class="cw-icon"> 
+                        <i class="ci-left"></i> 
+                        <i class="ci-right">&gt;</i>
+                        <i class="ci-count" id="shopping-amount">0</i> 
+                        <a target="_blank" href="">我的购物车</a> 
+                    </div>
+                </div>
+                <div id="hotwords">
+                    <a data-id="3566" data-position-id="2" href="" target="_blank">手机</a>
+                    <a data-id="3567" data-position-id="3" href="" target="_blank">电脑</a>
+                    <a data-id="5148" data-position-id="4" href="" target="_blank">鼠标</a>
+                    <a data-id="3569" data-position-id="5" href="" target="_blank">大家电</a>
+                    <a data-id="3570" data-position-id="6" href="" target="_blank">酒水</a>
+                </div>
+                <span class="clr"></span>
+            </div>
+            <!--秒杀导航-->
+            <div class="skmu j_menu" id="skmu">
+                <div class="grid_c1">
+                    <div class="skmu_list lf">
+                        <ul class="skmu_list_cnt">         
+                            <li class="skmu_list_item skmu_list_item_on">
+                                <a href="" title="京东秒杀">京东秒杀</a>
+                            </li>          
+                            <li class="skmu_list_item ">
+                                <a href="" title="品牌秒杀">品牌秒杀</a>
+                            </li>         
+                            <li class="skmu_list_item ">
+                                <a href="" title="品类秒杀">品类秒杀</a>
+                            </li>       
+                        </ul>
+                    </div>
+                    <div class="skmu_cls lf">                        
+                        <ul class="skmu_cls_list">                                                    
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="29"  title="电脑办公">电脑办公</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="19"  title="生活电器" >生活电器</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="30"  title="手机通讯" >手机通讯</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="25"  title="大家电">大家电</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="31"  title="智能数码">智能数码</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="45"  title="饮料酒水" >饮料酒水</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="37"  title="家居家装" >家居家装</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="43"  title="母婴童装" >母婴童装</a>
+                            </li>                                                             
+                            <li class="skmu_cls_item ">
+                                <a href="" data-cid="44" title="食品生鲜" >食品生鲜</a>
+                            </li>                                                                                     
+                            <li class="skmu_cls_item skmu_cls_item_last" id="J_subcate">
+                                <a href="" >更多分类<i class="skmu_arrow"></i></a>
+                            </li>                       
+                            <span id="J_guide" class="skmu_gani hide"></span>       
+                        </ul>
+                        <div></div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <!--S 主体内容-->
+        <div class="mod_container">
+            <div class="skhd" id="skhd">
+                <div class="skhd_wrap"></div>
+            </div>
+            <div class="timeline">
+                <ul class="timeline_list">
+                    <li class="timeline_item_selected">
+                        <div class="timeline_item_list">20:00</div>
+                        <div class="timeline_item_count">
+                            <p class="timeline_now">正在秒杀</p>
+                            <p class="timeline_end">距离结束00:18:40</p>
+                        </div>
+                    </li> 
+                    <li class="timeline_item">
+                        <div class="timeline_item_link">22:00</div>
+                        <div class="timeline_item_processtips">即将开始</div>
+                    </li>
+                    <li class="timeline_item">
+                        <div class="timeline_item_link">明日00:00</div>
+                        <div class="timeline_item_processtips">即将开始</div>
+                    </li>
+                    <li class="timeline_item">
+                        <div class="timeline_item_link">明日06:00</div>
+                        <div class="timeline_item_processtips">即将开始</div>
+                    </li>
+                    <li class="timeline_item">
+                        <div class="timeline_item_link">明日08:00</div>
+                        <div class="timeline_item_processtips">即将开始</div>
+                    </li>
+                </ul>                
+            </div>
+            <!--动态内容-->
+            <div class="seckill clear">
+                <ul class="seckill_mod" data-sec="seckill">
+                    <img src="../image/load2.gif" style="vertical-align: middle;width:50%;height:280px" alt="">
+                    <!--<li class="seckill_mod_goods lf">
+                        <a href="" class="seckill_mod_goods_link lf">
+                            <div class="seckill_mod_goods_img">
+                                <img src="../image/kill/product/kill2.jpg" alt="">
+                            </div>
+                            <div class="seckill_mod_goods_tit">
+                                <span>海南妃子笑荔枝 1.5kg装 新鲜水果</span>                                
+                            </div>
+                            <div class="seckill_mod_goods_price">
+                                <div class="seckill_price">
+                                    <span>￥19.90</span>
+                                    <span>￥49.90</span>
+                                    <p class="seckill_sales">
+                                       <i>销量</i>
+                                       <span>
+                                           <i></i>
+                                       </span>
+                                    </p>                               
+                                </div>
+                                <span class="seckill_shop">立即抢购</span>
+                                
+                            </div>
+                        </a>
+                        <div class="seckill_add_cart">
+                            <span class="reduc lf">-</span>
+                            <input type="text" value="1" class="lf">
+                            <span class="add lf">+</span>
+                            <div class="addcart">加入购物车</div>
+                        </div>                       
+                    </li> -->
+                </ul>
+            </div>           
+            <div class="seckill_page">
+                <!--<a href="javascript:void(0)" class="prevPage disabled">上一页</a>
+                <a href="javascript:void(0)" class="pageNum current">1</a>
+                <a href="javascript:void(0)" class="pageNum">2</a>
+                <a href="javascript:void(0)" class="pageNum">3</a>
+                <a href="javascript:void(0)" class="pageNum">4</a>
+                <a href="javascript:void(0)" class="pageNum">5</a>
+                <a href="javascript:void(0)" class="pageNum">6</a>
+                <a href="javascript:void(0)" class="nextPage">下一页</a>-->
+            </div>        
+        </div>
+        <!--猜你喜欢-->
+        <div class="w">
+            <div id="footmark" class="footmark">
+                <!--<div class="m hide may-like">
+                    <div class="like-mt clear">
+                        <h2 class="title">猜你喜欢</h2>
+                        <div class="extra">
+                            <a href="#none" class="change">
+                                <i class="ico"></i>
+                                <span class="txt">换一批</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="like-mc">
+                        <ul class="may-like-list clear">
+                            <li>
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="../image/filter/like1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="p-name">
+                                    <a href="#" target="_blank" title="">富安娜出品 馨而乐家纺 全棉绣花套件双人床单被套1.5m床纯棉提花婚庆四件套 1.5米床(被套203*229cm)粉</a>
+                                </div>
+                                <div class="p-review">
+                                    <a class="p-comm-672811" href="#">(已有7.1万+人评价)</a>
+                                </div>
+                                <div class="p-price J-p-672811">￥49.00</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <!--京东发展-->
+        <div class="w">            
+            <!--视频播放--> 
+            <div class="w-video"> 
+                <h3>您可能感兴趣的专题</h3> 
+                <video src="../image/product/jd.mp4" loop controls preload="metadata">
+                您的浏览器不支持HTML5
+                </video>    
+            </div>    
+        </div>
+        <!--尾部-->
+        <div id="footer"></div>
+    </div>
+	<script src="../js/ajax.js"></script>
+    <script src="../js/jquery-3.2.1.js"></script>
+	<script src="../js/header.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/kw.js"></script>    
+    <script src="../js/jquery-1.11.3.js"></script>  
+    <script src="../js/jquery-ui.js"></script>   
+    <script src="../js/getProduct.js"></script>
+    <script src="../js/footer.js"></script>      
+</body>
+</html>

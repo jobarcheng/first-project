@@ -1,0 +1,185 @@
+/*头部样式*/
+.header {
+    height: 110px;  
+}
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header .logo {
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+    background: url(../image/jdlogo.png) no-repeat;
+}
+.header .logo-title {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    margin-top: 34px;
+}
+.header .have-account {
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.header .have-account a {
+    color: #e22;
+}
+/*注册主体*/
+.form{
+    width: 400px;
+    margin: 0 auto;    
+}
+/*.register{
+    margin:20px 0;
+}*/
+.form input{
+    width: 400px;
+    height: 36px;
+    outline-style: none;
+    text-indent: 30px;
+    font-size: 9px;
+    border: 1px solid #e8e8e8;
+}
+.uname{
+    background: url(../image/yhm.png) no-repeat 5px 7px; /* 背景定位 左右  上下*/
+}
+.upwd,.cpwd{
+    background: url(../image/password.png) no-repeat 5px 7px; /* 背景定位 左右  上下*/
+}
+.phone,.email{
+    background: url(../image/phone.png) no-repeat 5px 7px ;
+}
+.yzm-img{
+    width: 195px;
+    height: 36px;
+    float: left;
+    border:0;
+    vertical-align: middle;
+}
+.register .yzm{
+    width: 200px;
+    float: left;
+}
+#btn{
+    display: block;
+    width: 400px;
+    height: 36px;
+    background: #e2231a;
+    line-height: 36px;
+    text-align: center;    
+    border: 0;   
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    color: #fff; 
+}
+
+.regirst-err {
+    display: block;
+    text-align: center;    
+    height: 22px;
+    line-height: 22px;
+    color: #d85252;
+    visibility: hidden;
+    font-size: 12px;
+}
+#form1  .regirst-err i{
+    display: inline-block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    padding: 0 2px 0 0;
+    margin-right: 3px;
+    background: url(../image/err.png) no-repeat;
+}
+#form1  .regirst-err i.ok{
+    background: url(../image/ok.png) no-repeat;
+}
+/*注册协议*/
+p{
+    color: #666;
+    font-size: 12px;
+    padding: 3px 0;
+    margin: 0 10px;
+}
+#ui-dialog{
+    width:700px;
+    height: 530px;    
+    position: fixed;
+    top:110px;
+    left: 500px;
+    background: #fff;
+    z-index: 10;
+    opacity: 1 !important;    
+    box-shadow: 0px 0px 7px #888888 ;     
+    display: none; 
+}
+.WordSection1{
+    width: 700px;
+    height:400px;
+    overflow:auto;
+    margin-top: 10px;
+}
+.protocol .MsoNormal-bg{  
+   background: #f3f3f3;    
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.protocol  .MsoNormal b span{
+    font-size: 16px;
+    line-height: 30px;  
+}
+.MsoNormal  .title{
+    font-size: 14px;
+}
+/*同意和取消*/
+.protocol .cancel{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 30px;
+    background: #e3e4e5;
+    font-size: 16px;
+}
+.protocol button {
+    margin: 0 auto;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    background: #e22;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+}
+.agree-cancle{
+    padding-top: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+/*尾部样式*/
+div#footer{
+    padding: 30px 0;
+    text-align: center;
+}
+#footer .links a{
+    margin: 0 10px;
+    font: 12px Arial,Verdana,"\5b8b\4f53";
+}
+.copyright {
+    margin: 10px 0;
+    color: #666;    
+    font-size: 12px;
+}

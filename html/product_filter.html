@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <title>产品</title>
+    <link rel="shortcut icon" href="../image/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/product_filter.css">
+</head>
+<body>
+    <div class="main">
+        <!--头部引入-->
+        <div id="header"></div>
+        <!--京东搜索-->
+        <div class="w clear">
+            <div id="logo-2014">
+                <a href="index.html" class="logo">京东</a>
+            </div>
+            <div id="search-2014">
+                <ul id="shelper" class="hide" style="display: none;"></ul>
+                <div class="form">
+                    <input type="text" autocomplete="off" id="key" accesskey="s" class="text blurcolor">
+                    <span class="photo-search-btn">
+                        <form id="search-img-upload" clstag="#" method="post" action="#" enctype="multipart/form-data" target="search_upload">
+                            <span class="upload-bg"></span>
+                            <input type="file" name="file" class="upload-trigger" accept="image/png,image/jpeg,image/jpg">
+                        </form>
+                    </span>
+                    <button class="button cw-icon"><i></i>搜索</button>
+                </div>
+            </div>
+            <div id="settleup-2014" class="dorpdown">
+                <div class="cw-icon">
+                    <i class="iconfont"></i>
+                    <i class="iconfont arrow"></i><i class="ci-count" id="shopping-amount">0</i>
+                    <a target="_blank" href="#">我的购物车</a>
+                </div>
+                <div class="dorpdown-layer">
+                    <div class="spacer">
+                        </div><div class="prompt">
+                            <div class="nogoods">
+                            <b></b>购物车中还没有商品，赶紧选购吧！
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hotwords" class="haveline">
+                <a href="#" class="fore">台式电脑</a>
+                <b>|</b>
+                <a href="#">笔记本电脑</a>
+                <b>|</b>
+                <a href="#">电脑主机</a>
+                <b>|</b>
+                <a href="#">笔记本</a>
+                <b>|</b>
+                <a  href="#">电脑主机 台式组装</a>
+                <b>|</b>
+                <a  href="#">组装电脑</a>
+                <b>|</b>
+                <a href="#">显示器</a>
+                <b>|</b>
+                <a href="#">台式机</a>
+                <b>|</b>
+                <a href="#">主机</a>
+                <b>|</b>
+                <a href="#">电脑一体机</a>
+                <b>|</b>
+                <a href="#">苹果电脑</a>
+                <b>|</b>
+                <a href="#">电脑显示器</a>
+                <b>|</b>
+                <a href="#">显卡</a>
+                <b>|</b>
+                <a href="#">游戏电脑</a>
+            </div>
+            <span class="clr"></span>
+        </div>
+        <!--nav start-->
+        <div id="nav-2018">
+            <div class="w">
+                <!--商品全部分类-->
+                <div id="categorys-2014" class="dorpdown">
+                    <!--写商品全部分类标题-->
+                    <div class="dt">
+                        <a href="#">全部商品分类</a>
+                    </div>
+                    <!--放商品分类标题下拉菜单副标题-->
+                    <div class="dd">
+                        <!--家用电器-->
+                        <div class="dd-inner">
+                            <div class="item fore1">
+                                <h3>
+                                     <!--<a href="#">家用电器</a>-->
+                                </h3>
+                            </div>
+                        </div>
+                        <!--侧边栏详情展示-->
+                        <div class="dropdown-layer">
+                                <div class="item-sub"></div>
+                            </div>
+                    </div>
+                </div>
+                <!--京东服务====金融 -->
+                <div id="navitems-2014">
+                    <ul id="navitems-group1"> 
+                        <li id="nav-fashion" class="fore1">
+                            <a href="#" class="b">京东服饰</a>
+                        </li>
+                        <li id="nav-beauty" class="fore2">
+                            <a href="#" class="b">美妆馆</a>
+                        </li>
+                        <li id="nav-chaoshi" class="fore3">
+                            <a href="#" class="b">超市</a>
+                        </li>
+                        <li id="nav-fresh" class="fore4">
+                            <a href="#" class="b">生鲜</a>
+                        </li>
+                    </ul>
+                    <div class="spacer"></div>
+                    <ul id="navitems-group2">
+                        <li clstag="" id="nav-jdww" class="fore1">
+                            <a class="b" target="_blank" href="#">全球购</a>
+                        </li>
+                        <li clstag="" id="nav-red" class="fore2">
+                            <a class="b" target="_blank" href="#">闪购</a>
+                        </li>
+                        <li clstag="" id="nav-auction" class="fore3">
+                            <a class="b" target="_blank" href="#">拍卖</a>
+                        </li>
+                    </ul>
+                    <div class="spacer"></div>
+                    <ul id="navitems-group3">
+                        <li clstag="" id="nav-jdjr" class="fore1">
+                            <a class="b" target="_blank" href="#">金融</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--nav end-->
+        <!--search_product_box-->
+        <div id="J_searchWrap" class="w">
+            <!--面包屑导航-->
+            <div id="J_crumbsBar" class="crumbs-bar">
+                <div class="crumbs-nav">
+                    <div class="crumbs-nav-main clearfix">
+                        <div class="crumbs-nav-item">
+                            <div class="crumbs-first">
+                                <a href="#">全部结果</a>
+                            </div>                                
+                        </div>
+                        <i class="crumbs-arrow">></i>
+                        <!--这里循环出后面需添加的标签-->
+                        <a href="#" class="crumb-select-item" title="品牌">
+                            <b>品牌：</b>
+                            <em>富安娜（FUANNA）</em>
+                            <i></i>
+                        </a>                       
+                    </div>
+                </div>
+            </div>
+            <!--内容块-->
+            <div id="J_container" class="container">
+                <!--品牌，分类，风格等小标签-->
+                <div id="J_selector" class="selector">
+                    <div class="J_selectorLine s-brand">
+                        <div class="sl-wrap">
+                            <div class="sl-key">
+                                <strong>品牌：</strong>
+                            </div>
+                            <div class="sl-value">
+                                <div class="sl-v-list">
+                                    <ul class="J_valueList v-fixed">
+                                        <!--根据不同产品的内容动态生成li-->
+                                        <li><a href="#">富安娜（FUANNA）</a></li>
+                                        <li><a href="#">罗莱（LUOLAI）</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="J_selectorLine s-category">
+                        <div class="sl-wrap">
+                            <div class="sl-key">
+                                <strong>床上用品:</strong>
+                            </div>
+                            <div class="sl-value">
+                                <div class="sl-v-list">
+                                    <ul class="J_valueList v-fixed">
+                                        <!--循环出-->
+                                        <li><a href="#" title="四件套">四件套</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="J_selectorLine s-line">
+                        <div class="sl-wrap">
+                            <div class="sl-key">
+                                <span>面料:</span>
+                            </div>
+                            <div class="sl-value">
+                                <div class="sl-v-list">
+                                    <ul class="J_valueList">
+                                        <li>
+                                            <a href="#">全棉</a>
+                                        </li>
+                                    </ul>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="J_selectorLine s-line">
+                        <div class="sl-wrap">
+                            <div class="sl-key">
+                                <span>风格:</span>
+                            </div>
+                            <div class="sl-value">
+                                <div class="sl-v-list">
+                                    <ul class="J_valueList">
+                                        <li>
+                                            <a href="#">清新田园</a>
+                                        </li>
+                                    </ul>
+                                </div>                               
+                            </div>
+                        </div> 
+                    </div>
+                    <div id="J_selectorSenior" class="J_selectorLine s-line s-senior">
+                        <div class="sl-wrap">
+                            <div class="sl-key">
+                                <span>高级选项：</span>
+                            </div>
+                            <div class="sl-value">
+                                <div class="sl-v-tab">
+                                    <div class="sl-tab-trigger clearfix">
+                                        <!--第一个trig-->
+                                        <a href="#" class="trig-item ">
+                                            <span class="text">适用尺寸</span>
+                                            <i class="arrow"></i>
+                                        </a>
+                                        <!--第2个trig-->
+                                        <a href="#" class="trig-item">
+                                            <span class="text">面料支数</span>
+                                            <i class="arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>                             
+                            </div>
+                            <!--高级选项中的内容选择-->
+                            <div class="sl-tab-cont">
+                                <!--第一个trig 对应尺寸-->
+                                <div class="sl-tab-cont-item">
+                                    <div class="sl-v-list">
+                                        <ul class="J_valueList clearfix">
+                                            <li>
+                                                <a href="#">1.0m单人床</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">1.2m单人床</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--第er个trig 对应尺寸-->
+                            </div>
+                        </div> 
+                    </div>                    
+                </div>
+                <!--商品精选-->
+                <div id="J_main" class="g-main2 clear" >
+                    <!--中间大块-->
+                    <div class="m-list clear">
+                        <div class="ml-wrap">
+                            <!--上：价格、地址筛选-->
+                            <div id="J_filter" class="filter">
+                                <!--销量；价格筛选-->
+                                <div class="f-line top">
+                                    <div class="f-sort">
+                                        <a href="#" class="curr">
+                                            <span class="fs-tit">综合</span>
+                                            <em class="fs-down">
+                                                <i class="arrow"></i>
+                                            </em>
+                                        </a>
+                                        <a href="#">
+                                            <span class="fs-tit">销量</span>
+                                            <em class="fs-down">
+                                                <i class="arrow"></i>
+                                            </em>
+                                        </a>
+                                        <a href="#">
+                                            <span class="fs-tit">评论数</span>
+                                            <em class="fs-down">
+                                                <i class="arrow"></i>
+                                            </em>
+                                        </a>
+                                        <a href="#">
+                                            <span class="fs-tit">新品</span>
+                                            <em class="fs-down">
+                                                <i class="arrow"></i>
+                                            </em>
+                                        </a>
+                                        <a href="#">
+                                            <span class="fs-tit">价格</span>
+                                            <em class="fs-up">
+                                                <i class="arrow-top"></i>
+                                                <i class="arrow-bottom"></i>
+                                            </em>
+                                        </a>
+                                    </div>
+                                    <div id="J_selectorPrice" class="f-price">
+                                        <div class="f-price-set">
+                                            <div class="fl"><input type="text" class="input-txt" autocomplete="off" style="color: rgb(204, 204, 204);" value="¥"></div>
+                                            <em>-</em>
+                                            <div class="fl"><input type="text" class="input-txt" autocomplete="off" style="color: rgb(204, 204, 204);" value="¥"></div>
+                                        </div>
+                                        <div class="f-price-edit">
+                                            <a href="javascript:;" class="item1 J-price-cancle">清空</a>
+                                            <a href="javascript:;" class="item2 J-price-confirm">确定</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--地址选择-->
+                                <div class="f-line">
+                                    <div class="f-store">
+                                        <div class="fs-cell delivery-location">配送至</div>
+                                        <div id="J_store_selector" class="ui-area-wrap ui-area-oversea-mode">
+                                            <div class="ui-area-text-wrap">
+                                                <div class="ui-area-text" data-id="1-72-2819" title="北京朝阳区三环到四环之间">北京朝阳区三环到四环之间</div>
+                                                <b></b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--中：产品展示-->
+                            <div id="J_goodsList" class="goods-list-v2 gl-type-3 J-goods-list">
+                                <!--<ul class="gl-warp clear">
+                                    <li class="gl-item">
+                                        <div class="gl-i-wrap">
+                                            <div class="p-img">
+                                                <a href="#">
+                                                    <img src="../image/filter/fan1.jpg" alt="">
+                                                </a>
+                                                <div data-lease="" data-catid="15252" data-venid="608892" data-presale="" data-done="1"></div>
+                                            </div>
+                                            <div class="p-scroll">
+                                                <span class="ps-prev">&lt;</span>
+                                                <span class="ps-next">&gt;</span>
+                                                <div class="ps-wrap">
+                                                    <ul class="ps-main">
+                                                        <li>
+                                                            <a href="#" title="清凉一夏">
+                                                                <img src="../image/filter/fan1.jpg" alt="">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="缤纷乐园">
+                                                                <img src="../image/filter/fan2.jpg" alt="">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="p-price">
+                                                    <strong class="J_11883022001" data-done="1">
+                                                        <em>￥</em>
+                                                        <i>539.00</i>
+                                                    </strong>		
+                                                </div>
+                                                <div class="p-name p-name-type-2">
+			                                        <a title="" href="#" >
+				                                        <em><font class="skcolor_ljg">富安娜</font>家纺 全棉四件套纯棉学生白领儿童套件卡通双面可用 清凉一夏 1.8米(6英尺)床</em>
+				                                        <i class="promo-words" id="J_AD_11883022001">【盛夏狂欢】部分每满399减100/3件7.5折，立即抢购&gt;&gt;&gt;</i>
+			                                        </a>
+		                                        </div>
+                                                <div class="p-commit">
+                                                    <strong>
+                                                        <a id="J_comment_4367904"  href="#">3300+</a>条评价
+                                                    </strong>
+                                                </div>
+                                                <div class="p-focus">
+                                                    <a class="J_focus"  href="#" title="点击关注"><i></i>关注</a>
+                                                </div>
+                                                <div class="p-shop">
+                                                    <span class="J_im_icon">
+                                                        <a href="#" title="富安娜自营官方旗舰店">富安娜自营官方旗舰店</a>
+                                                        <b class="im-offline" title="供应商客服不在线，可留言"></b>
+                                                    </span>
+                                                </div>
+                                                <div class="p-icons" id="J_pro_4367904" data-done="1">
+                                                    <i class="goods-icons J-picon-tips J-picon-fix" >自营</i>
+                                                    <i class="goods-icons4 J-picon-tips">满减</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>                                   
+                                </ul>-->
+                            </div>
+                            <!--下：页码-->
+                            <div class="page clear">
+                                <div id="J_bottomPage" class="p-wrap">
+                                    <span class="p-num">
+                                        <a class="pn-prev disabled"><i>&lt;</i><em>上一页</em></a>
+                                        <a href="javascript:;" class="curr">1</a>
+                                        <a href="javascript:;" >2</a>
+                                        <b class="pn-break">...</b>
+                                        <a class="pn-next "><em>下一页</em><i>&gt;</i></a>
+                                    </span>
+                                    <span class="p-skip">
+                                        <em>共<b>10</b>页&nbsp;&nbsp;到第</em>
+                                        <input type="text" class="input-txt" value="1"><em>页</em>                                        
+                                        <a href="#" class="btn btn-default">确定</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--左边小块-->
+                    <div class="m-aside">
+                        <div class="aside-bar">
+                            <div class="ab-goods u-ad-wrap">
+                                <span class="u-ad">广告</span>
+                                <div class="mt"><h3>商品精选</h3></div>
+                                <div class="mc">
+                                    <ul class="clear">
+                                        <li>
+                                            <div class="p-img">
+                                                <a href="#">
+                                                    <img src="../image/filter/sjt1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="p-price">
+                                                <strong><em>¥</em><i>289.00</i></strong>
+                                            </div>
+                                            <div class="p-name">
+                                                <a href="#">
+                                                    <em>曼克顿 水洗真丝<font>四件套</font>刺绣纯色纯棉简约被套全棉床笠床单套件床上用品 曼克顿-灰色 1.5m-1.8m床（被套2.0*2.3米）</em>
+                                                </a>
+                                            </div>
+                                            <div class="p-comm">已有
+                                                <span style="color:#005aa0">6057</span>人评价
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--猜你喜欢-->
+        <div class="w">
+            <div id="footmark" class="footmark">
+                <!--<div class="m hide may-like">
+                    <div class="like-mt clear">
+                        <h2 class="title">猜你喜欢</h2>
+                        <div class="extra">
+                            <a href="#none" class="change">
+                                <i class="ico"></i>
+                                <span class="txt">换一批</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="like-mc">
+                        <ul class="may-like-list clear">
+                            <li>
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="../image/filter/like1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="p-name">
+                                    <a href="#" target="_blank" title="">富安娜出品 馨而乐家纺 全棉绣花套件双人床单被套1.5m床纯棉提花婚庆四件套 1.5米床(被套203*229cm)粉</a>
+                                </div>
+                                <div class="p-review">
+                                    <a class="p-comm-672811" href="#">(已有7.1万+人评价)</a>
+                                </div>
+                                <div class="p-price J-p-672811">￥49.00</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>  
+    <script src="../js/jquery-1.11.3.js"></script>  
+	<script src="../js/header.js"></script>
+    <script src="../js/product_filter.js"></script>
+</body>
+</html>

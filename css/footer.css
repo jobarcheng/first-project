@@ -1,0 +1,206 @@
+.footer{
+    width:100%;
+    margin: 0 auto;    
+}
+/*底部：上*/
+.mod_service{
+    width:100%;
+    height: 103px; 
+    border-bottom: 1px solid #ddd;
+}
+.mod_service>.mod_servise_inner{
+    width: 1200px;
+    height: 103px;   
+    margin: 0 auto;
+}
+.mod_servise_item{
+    float: left;
+    width: 297px;
+}
+.mmod_servise_unit{
+    position: relative;
+    margin: 0 auto;
+    padding: 45px;
+    width: 180px;    
+}
+.mod_servise_duo{
+    background:url(../image/sprite.footer.png) no-repeat 0 -192px;
+}
+.mod_servise_kuai{
+    background:url(../image/sprite.footer.png) no-repeat -41px -192px;
+}
+.mod_servise_hao{
+    background:url(../image/sprite.footer.png) no-repeat -82px -192px;
+}
+.mod_servise_sheng{
+    background:url(../image/sprite.footer.png) no-repeat -123px -192px;
+}
+.mod_servise_title{
+    overflow: hidden;
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    width: 40px;
+    height: 42px;
+    text-indent: -999px; /*首行缩进*/
+}
+.mod_servise_txt{
+    overflow: hidden;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;/*文本溢出：省略*/
+    white-space: nowrap; /*空白：不换行*/
+    color: #444;  
+    position: absolute;
+    top: 27px;
+    left: 70px;  
+}
+/*底部：中*/
+.mod_help{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.grid_c1{
+    margin: 0 auto;
+    width:1190px;
+}
+.mod_help_list{
+    overflow: hidden;
+    height: 160px;
+}
+.mod_help_nav{
+    float: left;
+    width: 198px;
+    line-height: 22px;
+}
+.mod_help_nav_tit{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.mod_help_nav_con{
+    font-size: 13px;    
+}
+.mod_help_cover{
+    background: url(../image/sprite.footer.png) no-repeat 0 0;
+    float: right;
+    width: 200px;
+    height: 150px;
+}
+.mod_help_cover_tit{
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align:center;
+}
+.mod_help_cover_con{
+    padding:0 10px;
+}
+.mod_help_cover_info{
+    font-size: 13px;
+    color: #808080;
+}
+.mod_help_cover_more{
+    text-align: right;
+    font-size: 13px;
+}
+.iconfont{
+    font: normal iconfont;
+}
+/*底部下*/
+.mod_copyright{
+    width: 100%;
+    height: 265px;  
+}
+.mod_copyright_inner {
+    padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+.mod_copyright_links{
+    font-size: 12px;
+}
+.mod_copyright_split {
+    margin: 0 10px;
+    color: #ccc;
+}
+.mod_copyright_info {
+    padding: 10px 0;
+    line-height: 22px;
+    color: #999;
+}
+.mod_copyright_cert{
+    font-size: 12px;
+}
+.mod_copyright_info a {
+    color: #999;
+}
+.mod_copyright_license {
+    margin-left: 16px;
+}
+.mod_copyright_inter{
+    font-size: 13px;
+}
+.mod_copyright_inter_ico_global{
+    background:url(../image/data_image.png) no-repeat;    
+    width: 15px;
+    height: 12px;    
+}
+.mod_copyright_inter_ico_rissia{
+    background:url(../image/data_image.png) no-repeat -20px 1px;   
+    width: 15px;
+    height: 12px; 
+}
+.mod_copyright_inter_ico_indonesia{
+    background:url(../image/data_image.png) no-repeat 0px -15px;  
+    width: 15px;
+    height: 12px;  
+}
+.mod_copyright_inter_ico_spain{
+     background:url(../image/data_image.png) no-repeat -40px 1px;    
+     width: 15px;
+    height: 12px;
+}
+.mod_copyright_inter_ico {
+    display: inline-block;    
+    vertical-align: -1px;
+    margin-right: 10px;
+}
+div.mod_copyright_subsites{
+    font-size: 13px;
+}
+em,i {
+    font-style: normal;
+}
+.mod_copyright_auth {
+    margin: 25px 0;
+}
+.mod_copyright_auth_ico_1 {
+    background:url(../image/sprite.footer.png) no-repeat -205px -148px;
+}
+.mod_copyright_auth_ico {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+    line-height: 1000px;
+}
+.mod_copyright_auth_ico_2 {
+    background: url(../image/sprite.footer.png) -205px -111px no-repeat;
+}
+.mod_copyright_auth_ico_3 {
+    background: url(../image/sprite.footer.png) -205px -74px no-repeat;
+}
+.mod_copyright_auth_ico_4 {
+    background: url(../image/sprite.footer.png) -205px -37px no-repeat;
+}
+.mod_copyright_auth_ico_5 {
+    background: url(../image/sprite.footer.png) -205px 0 no-repeat;
+}
+.mod_copyright_auth_ico_6 {
+    background: url(../image/sprite.footer.png) 0 -155px no-repeat;
+}

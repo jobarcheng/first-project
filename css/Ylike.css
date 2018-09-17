@@ -1,0 +1,78 @@
+/*猜你喜欢*/
+.w {
+    width: 1400px;
+    margin: 0 auto;  
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+}
+.footmark{
+    width: 100%;    
+}
+a:hover{
+    color: #e3393c;
+}
+.footmark .m{
+    padding: 0 9px;
+    border: 1px solid #ddd;
+    border-top: 2px solid #999;
+    margin-bottom: 10px;
+    width: 100%;
+    display: none;
+}
+.footmark .mt-like {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.footmark .title {
+    width: 690px;
+    float: left;
+    font: 14px/30px "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;  
+}
+.footmark .extra {
+     width: 690px;
+    float: right;
+    text-align: right;
+}
+.footmark .may-like .change {
+    display: inline-block;
+}
+.footmark .may-like .change .ico {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background: url(../image/filter/update.png) no-repeat;
+}
+.footmark .may-like .like-mc {
+    height: 246px;
+    overflow: hidden;
+}
+.footmark .may-like-list {
+    padding-top: 15px;
+    margin-right: -10px;
+}
+.footmark .may-like-list li {
+    width: 150px;
+    height: 216px;
+    float: left;
+    margin: 0 8px 0 0;
+    padding: 0 18px 15px;
+    text-align: center;
+    
+}
+.footmark .may-like-list .p-name {
+    height: 36px;
+    overflow: hidden;
+}
+.footmark .may-like-list .p-review {
+    line-height: 20px;
+}
+.footmark .may-like-list .p-review a {
+    color: #005ea7;
+    
+}
+.footmark .may-like-list .p-price {
+    line-height: 20px;
+    color: #e3393c;
+}

@@ -1,0 +1,300 @@
+.main{
+    background: #fff;   
+}
+.content{     
+    width: 100%;  
+}
+/*<!--头部搜索-->*/
+.cart-header,.container{
+    width:80%; 
+    margin:0 auto;
+}
+/*头部搜索：左*/
+.cart-header .jdlogo{
+    width: 277px;
+    height: 50px;
+    float: left;    
+    line-height: 50px;
+    margin: 20px 0px;
+}
+.cart-header .jdlogo .logo{
+    display: inline-block;   
+    width: 134px;
+    height: 42px;
+    background: url(../image/jdlogo.png) no-repeat 0 0;
+}
+.cart-header .jdlogo .link2{ 
+    width: 100px;
+    height: 40px;   
+    font:20px tahoma,arial,Microsoft YaHei;
+    color: #555;
+    padding-left: 10px;
+}
+/*头部搜索：右*/
+.cart-header  .cart-search{
+    float: right;
+    border: 2px solid #c91623;
+    background: #c91623;
+    height: 24px;
+    margin-top: 30px;
+    overflow: hidden;   
+}
+.cart-search input{
+    border: 0;
+    outline: 0;
+}
+.cart-search .cart-txt {    
+    height: 18px;
+    line-height: 18px;
+    width: 260px;
+    padding: 3px 5px;    
+}
+.cart-search .button{
+    background: #c91623;
+    color: #fff;
+    font: 14px bold ,arial;
+    width: 48px;
+    height: 24px;
+    background: #c91623;
+    text-align: center;       
+}
+/*未登录情况下样式*/
+.content .nologin{
+    border: 1px solid #edd28b;
+    background: #fffdee;
+    padding: 10px 10px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #f70;
+    font-size: 14px;
+}
+.content .nologin .wicon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(../image/icon16.png) 0 0 no-repeat;
+}
+.content .nologin .btn-login{
+    padding: 5px 10px;
+    color: #fff;
+    background: #e74649;
+    font-size:12px;
+    margin-left: 5px; 
+}
+/*  <!--2.1 标题块-->*/
+.content .cart-filter {
+    margin-top: 10px; 
+    position: relative;
+}
+.content .switch-cart{
+    float: left;    
+    height: 26px;
+    overflow: hidden;
+    color: #e4393c;
+    font-weight: bold;
+    position: relative;
+}
+.content .cart-thead{
+    display: block;
+    height: 32px;
+    line-height: 32px;  
+    padding: 5px 0;
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+    border-top: 0;
+    position: relative;
+}
+.content .cart-thead .column{
+    float: left;
+    font-size: 13px
+}
+.content .cart-thead .t-checkbox{  
+    height: 18px;
+    line-height: 18px;
+    padding-top: 7px;
+    padding-left: 10px;
+    width: 122px; 
+}
+.content .cart-thead .cart_checkbox{
+    float: none;
+    position: relative;    
+    vertical-align: middle;  
+    padding: 0;
+}
+.content .cart-thead .t-goods{
+    width: 310px;    
+    text-align: center;
+}
+.content .cart-thead .t-price,.t-quantity,.t-sum,.t-action{
+    width: 150px;
+    text-align: right;  
+}
+.cart-checkbox {
+    position: relative;
+    z-index: 3;
+    float: left;  
+}
+.container .cart-item-list {
+   margin-bottom: 20px;   
+}
+.cart-body .shop {
+    height: 30px;
+    line-height: 30px;  
+    font-weight: 700;  
+}
+.cart-body .shop .shop-txt{
+    margin-right: 5px;
+}
+.cart-body .bottom{
+    border-bottom: 3px solid #ddd;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+.container .cart-body .shop-name{
+    background: #e74649;
+    color: #fff;
+    font-size: 13px;
+    padding: 2px 2px;
+}
+.item-infor{
+    height: 115px;
+    margin: 10px 0;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+}
+.item-infor .check{
+    width:62px;   
+}
+.item-infor .checked{
+    position: absolute;
+    top: 49px;
+    left: 27px;
+}
+.item-infor .product{
+    width: 440px; 
+    line-height: 35px; 
+    position: relative;
+    top: 8px;    
+}
+.item-infor .product a{
+    float: left;
+    margin-right: 5px;   
+}
+.item-infor .col{
+    margin-top: 10px;
+}
+.item-infor div.product~div{
+    box-sizing: border-box;
+    border-left: 1px solid #ddd;
+}
+.item-infor .price{ 
+    text-align: center;
+    width: 142px;
+}
+.item-infor .price-desc{
+    margin-top: 40px;   
+    color: #e4393c;
+    box-sizing: border-box;
+}
+.cart-filter .num{
+    padding: 5px 10px;
+    color: #e4393c;
+    font-weight: bold;
+}
+.item-infor .num{
+    width: 140px;
+    padding-left: 30px;   
+}
+.item-infor .num .reduce,.add{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border:1px solid #bbb;
+    background:#e8e8e8;
+    text-align: center;
+    line-height: 24px;
+    color: #444;
+    margin-top: 43px;    
+    float:left;
+}
+.item-infor .num input{
+    width: 17px;
+    height: 24px;
+    padding: 0 6px;
+    font: 12px simhei;
+    border: 1px solid #bbb;
+    border-left: none;
+    border-right: none;    
+    margin-top: 43px;
+    float:left;
+}
+.item-infor .total-price{
+    text-align: center;
+    line-height: 115px;
+    width: 172px;
+}
+.item-infor .del{
+    width: 140px;
+    text-align: center;
+    line-height: 116px;
+}
+.cart-item-list a,span,p{
+    color: #555;
+    font:15px "simhei",Arial,Helvetica,sans-serif; 
+}
+.foot{
+    width: 100%;   
+    background: linear-gradient(to bottom,#f5f4f5,#e6e6e5);
+    margin: 20px 0;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+.foot .checkAll{
+    width: 32%;
+    float: left;
+    padding-left: 30px;   
+}
+.checkAll input{
+    position: relative;
+    top: 3px;
+}
+.foot .toolbar{
+    width: 65%;
+    float: left;
+    text-align: right;   
+}
+.foot .toolbar .totalOne{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 5px;  
+}
+.color{
+    color: #e4393c;
+}
+div.foot-tol span+span {
+    color: #e4393c;
+    font-size: 16px;
+    font-weight: bold;
+}
+.foot .toolbar .foot-selected,.foot-tol{
+    display: inline-block;
+    margin-right: 10px;
+}
+.foot .foot-cash{  
+    display: inline-block;
+    cursor: pointer;
+    width: 140px;
+    height: 42px;
+    line-height: 42px;
+    background: linear-gradient(to bottom,#e4393c,#c91623);
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 2px;   
+}

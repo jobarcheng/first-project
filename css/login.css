@@ -1,0 +1,363 @@
+.main{
+    background: #fff;
+}
+div.container{
+    width: 100%;   
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+}
+a img {
+    border: 0;
+}
+img {
+    vertical-align: middle;}
+#logo{  
+    width: 300px;
+    margin: 10px 0px;
+    height: 60px;
+    float: left;
+}
+#logo b{
+    display: inline-block;
+    width: 110px;
+    height: 40px;   
+    background: url(../image/register/l-icon.png) no-repeat; 
+    position: relative;
+    top:30px;    
+}
+a.q-link{
+    position: relative;
+    color: #999;
+    float: right;
+    top: 50px;    
+}
+a.q-link b{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin: 0 5px;
+    background: url(../image/register/q-icon.png) no-repeat;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.tips-wrapper{
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.tips-wrapper .cont-wrapper {
+    display: inline-block;
+    width: 90%;
+}
+.icon-tips{
+   background: url(../image/register/icon-tips.png) no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.tips-wrapper p{
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+}
+.tips-wrapper a.black{
+    color: #333;
+}
+/*登录框*/
+.login-wrap .login-form{
+    float: right;
+    top: 40px;
+    right: 50px;
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    overflow: visible;
+    width: 346px;
+}
+.login-wrap .tips-wrapper{
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.login-wrap .cont-warpper{
+    display: inline-block;
+    width: 90%;
+}
+.login-wrap p{
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+}
+.login-form .login-tab{
+    height: 54px;    
+    text-align: center;    
+    position: absolute;
+    background: #fff;
+    display: block;
+    border-bottom: 1px solid red;
+}
+.login-form .login-tab-l, 
+.login-form .login-tab-r{
+    width: 173px;
+}
+.login-form .login-tab a{
+    font-size: 18px;
+    font-family: "microsoft yahei";    
+    width: 99%;    
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+.login-form .login-tab-r{
+    right: 0;
+}
+.login-form .login-tab a.checked, .login-form .login-tab a:hover {
+    font-weight: 700;
+    color: #e4393c;
+}
+/*登录框*/
+.login-form .login-box{
+    width: 306px;
+    padding: 45px 20px 20px 20px;
+}
+.login-form .login-box .tab-h {
+    height: 35px;
+}
+.login-form .login-box .mt {
+    display: inline-block;
+    display: block;
+    width: 306px;
+    overflow: visible;
+    height: 27px;
+}
+.login-form .msg-wrap {
+    min-height: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto!important;
+}
+.login-form .msg-error {
+    position: relative;
+    background: #ffebeb;
+    color: #e4393c;
+    border: 1px solid #faccc6;
+    padding: 3px 10px 3px 40px;
+    line-height: 15px;
+    height: auto;
+}
+.hide{
+    display: none;
+}
+.login-form .msg-error b {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    display: block;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(../image/register/pwd-icons-new.png) -104px -49px no-repeat;
+}
+.login-form .login-box .mc {
+    overflow: visible;
+}
+.m, .mb, .mc, .mt, .sm, .smb, .smc, .smt {
+    overflow: hidden;
+    zoom: 1;
+}
+.form .item-fore1 {
+    z-index: 6;
+}
+.form .item-fore1, .form .item-fore2 {
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+}
+.form .item {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.form .item .login-label {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background: url(../image/register/pwd-icons-new.png) no-repeat;
+}
+.form .item .name-label{
+    background-position: 0 0;
+}
+.form .item .pwd-label{
+    background-position: -48px 0;
+}
+.form .itxt {
+    line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+.form .item-fore1 .clear-btn, .form .item-fore2 .clear-btn {
+    position: absolute;
+    z-index: 20;
+    right: 6px;
+    top: 12px;
+    width: 14px;
+    height: 14px;
+    background: url(../image/register/pwd-icons-new.png) -25px -143px no-repeat;
+    cursor: pointer;    
+    display: none;
+}
+.login-form .login-box .safe {
+    position: relative;
+    color: #666;
+}
+.login-form .login-box .safe span {
+    margin-right: 15px;
+}
+.login-form .login-box .safe .forget-pw-safe {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+}
+.form .item-fore5 {
+    margin-bottom: 10px;
+}
+.login-form .login-box .login-btn {
+    border: 1px solid #cb2a2d;
+    margin: 0 auto;
+    height: 32px;
+    width: 99%;
+    position: relative;
+}
+.login-form .login-box .login-btn .btn-img {
+    border: 1px solid #e85356;
+    display: block;
+    width: 302px;
+    background: #e4393c;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+}
+.btn-img, .button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.coagent {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    height: auto;
+    background-color: #fcfcfc;
+}
+.coagent{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    height: auto;
+    background-color: #fcfcfc;
+}
+.coagent ul li{
+    float:left;
+}
+.coagent li a.pdl {
+    display: inline-block;
+    position: relative;
+    padding-left: 24px;  
+}
+.coagent li a.pdl b {
+    width: 19px;
+    height: 18px;
+    display: block;
+    background: url(../image/register/QQ-weixin.png) no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 0px;
+}
+.coagent li a.pdl b.QQ-icon {
+    background-position: 0 0;
+}
+.coagent li .line {
+    color: #ccc;
+    padding: 0 10px;
+}
+.coagent li a.pdl b.weixin-icon {
+    background-position: -20px 0;
+}
+.coagent li.extra-r {
+    float: right;
+}
+.coagent .regist-link {
+    color: #b61d1d;
+    font-size: 14px;
+}
+.coagent .regist-link a {
+    color: #b61d1d;
+}
+.coagent .regist-link b {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(../image/register/pwd-icons-new.png) -104px -75px no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/*登录背景图*/
+.login-wrap .login-banner{
+    width: 100%;   
+    height: 475px;
+    background: url(../image/register/background.jpg) no-repeat;
+    background-color: #28AAF5;
+}
+/*尾部引入*/
+div#footer{
+    padding: 30px 0;
+    text-align: center;
+}
+#footer .links a{
+    margin: 0 10px;
+}
+.copyright {
+    margin: 10px 0;
+     color: #666;
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+}
